@@ -76,7 +76,7 @@ public class SongtekstenScraper {
 //                .collect(Collectors.joining("\n"));
                 .collect(Collectors.toList());
         System.out.println("content:" + content.stream().collect(Collectors.joining("\n////\n")));
-        return content.stream().collect(Collectors.joining("\n"));
+        return correctCommonMistakes(content.stream().collect(Collectors.joining("\n")));
     }
 
     public String correctCommonMistakes(String lyrics) {
