@@ -1,2 +1,2 @@
 # songteksten-nl-scraper
-Tool for scraping Dutch lyrics from songteksten.nl
+Java tool for scraping Dutch lyrics from songteksten.nl
